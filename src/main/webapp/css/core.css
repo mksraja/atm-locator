@@ -1,0 +1,257 @@
+
+
+/*.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td
+{
+    padding: 8px;
+
+    line-height: 1.42857143; */
+    /* vertical-align: top;*/
+    /*border-top: 1px solid #ddd;
+}*/
+
+#dwtTable > tbody > tr > th,
+#dwtTable > tbody > tr > td {
+    padding-left: 14px;
+    vertical-align: middle !important
+}
+
+#dwtTable > tbody > tr > td,
+.table > tbody > tr > td > button {
+    line-height: 0.42857143;
+}
+
+.panel-title {
+
+    font-weight: bold;
+}
+
+.panel-primary {
+    /* border-color: #E0E0E0;*/
+    border: none;
+}
+
+.panel-primary > .panel-heading {
+    color: #608e28;
+    background-color: #f1f1f1;
+    border-color: #E0E0E0;
+}
+
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #E0E0E0;
+}
+
+.panel-body {
+    padding-left: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 0px;
+}
+
+/*.table th {
+    background: #f1f1f1;
+    color: #608e28;
+    font-size: 14px;
+    padding: 0px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px;
+    border-bottom: 1px solid #E0E0E0;
+
+}*/
+
+.table td {
+    color: #333333;
+    text-align: left;
+    /*            border-color: #fff; */
+    /* border-bottom: 1px solid #E0E0E0; */
+    padding: 6px;
+    word-break: break-word;
+    -ms-word-break: break-all;
+
+}
+
+/*.table {
+    border-bottom: 1px solid #E0E0E0;
+    border-left: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+}*/
+
+.headerLabel {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.info-details {
+    font-family: Arial, helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/*accordian for down arrow */
+.arrowRight > .panel-heading .accordion-toggle:after {
+
+    font-family: 'Glyphicons Halflings';
+    content: "\e252";
+    float: Right;
+    color: #608e28; /*grey;*/
+}
+
+/*accordion for right arrow */
+.arrowRight > .panel-heading .accordion-toggle.collapsed:after {
+
+    content: "\e250";
+    color: #608e28;
+}
+
+/* For options button in actionPage */
+.btnOptions {
+    background-color: #c8c8c8;
+    border-radius: 0;
+}
+
+/*For accordian Heading-Removing rounded corners*/
+.actionPanelHeading {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+/* For DWT ClaimDetails Page*/
+#spanQrf {
+    margin-left: 20px;
+}
+
+#txtComment {
+    height: 88px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+#spnAddComment {
+    text-decoration: underline;
+    font-size: 9pt;
+    float: right;
+}
+
+.commentRowDiv {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#generalDiv {
+    right: 5px;
+    background-color: white;
+    padding: 15px;
+    /* width:50%;*/
+}
+
+#claimDetailDiv {
+    left: 5px;
+    background-color: white;
+    padding: 15px 15px 99px 15px;
+    /* width:49%;*/
+
+}
+
+#commentDiv {
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20;
+}
+
+#buttonDiv {
+    margin-top: 10px;
+}
+
+#dwttables {
+    border: 0px;
+}
+
+#generalDwtTable td,
+#generalDwtTable th {
+    border-top: 0;
+    border-bottom: 0;
+    background: none;
+}
+
+#claimDwtTable td,
+#claimDwtTable th {
+    border-top: 0;
+    border-bottom: 0;
+    background: none;
+}
+
+#generalDwtTable, #claimDwtTable {
+    border: none;
+}
+
+.buttonClass {
+    width: 100%;
+    border-radius: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Login Page */
+
+.loginH4 {
+    text-align: center;
+    color: #009286;
+}
+
+.inputBottom {
+    margin-bottom: 30px;
+}
+
+.lnkForgot {
+    float: right;
+    color: black;
+    padding-top: 10px;
+}
+
+.loginDiv {
+    border: 1px solid rgba(136, 136, 136, 0.33);;
+}
+
+
+.contentdivsmall {
+    margin-top: 10px;
+}
+
+
+
+.width68 {
+    float: none;
+    width: 68%;
+}
+
+.width90 {
+    width: 90%;
+}
+
+.width69 {
+    width: 69%;
+}
+
+.h4 {
+    font-size: 17px;
+}
+
+.greydiv {
+    border: 1px solid #f0f0f0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#newpost1, #newpost2, #newpostIssuer1, #newpostIssuer2, #newpostIssuer3, #newpostIssuer4, #newpostVoting1, #newpostVoting2, #newpostExtension1, #newpostExtension2, #intermediaries2 {
+    display: none;
+}
+
+

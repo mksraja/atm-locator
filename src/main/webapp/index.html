@@ -1,0 +1,31 @@
+<html>
+<head>
+<base href="/testapp/" />
+
+<link rel="stylesheet" href="css/core.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/header.css">
+
+<script src="scripts/libs/angular.min.js"></script>
+<script src="scripts/libs/angular-resource.js"></script>
+<script src="scripts/libs/angular-route.js"></script>
+<script src="scripts/libs/angular-ui-router.js"></script>
+<script src="scripts/libs/ngStorage.min.js"></script>
+
+<script src="scripts/modules/app.js"></script>
+<script src="scripts/controllers/home-controller.js"></script>
+<script src="scripts/services/locator-service.js"></script>
+
+
+</head>
+<body ng-app="testApp">
+	<h2 align="center">Welcome to Test</h2>
+	<div id="content">
+		<div ui-view="headerView"></div>
+	</div>
+	<div class="container-fluid paddingLeftRightZero body-content">
+		<div ui-view="mainView"></div>
+	</div>
+	<div class="top-margin20" ng-include src="'footer.html'"></div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<div style="vertical-align: top">
+	<form name="searchForm" ng-submit="searchForm.$valid && search()">
+		<div>
+			<input id="city" name="city" placeholder="City Name to Search amsterdam|amstelveen|others"
+				class=" form-control" type="text" ng-model="city" required />
+		</div>
+		<div>
+			<input id="btnFind" type="submit"
+				class="primarybtn form-control-input"
+				 value="Search" />
+		</div>
+	</form>
+</div>
+<div class="col-xxs-10 col-xs-11 col-sm-11 col-md-11 col-lg-11">
+</div>
+<div class="container-fluid">
+	<div class="col-xxs-12 col-md-12 top-margin10">
+		<div class="col-xxs-12 col-md-12">
+			<h5>Results</h5>
+		</div>
+		<div class="table-responsive col-md-12">
+			<table class="sortable table top-margin10">
+				<colgroup>
+					<col class="widthP11" />
+					<col class="widthP12" />
+					<col class="widthP11" />
+					<col class="widthP11" />
+					<col class="widthP11" />
+				</colgroup>
+				<tbody>
+					<tr>
+						<th>ID</th>
+						<th>Code</th>
+						<th>Location</th>
+						<th>City</th>
+						<th>Post Code</th>
+					</tr>
+					<tr ng-repeat="atmdetail in atmdetails ">
+						<td id="id">{{atmdetail.id}}</td>
+						<td id="code">{{atmdetail.atmCode}}</td>
+						<td id="location">{{atmdetail.location}}</td>
+						<td id="city">{{atmdetail.city}}</td>
+						<td id="postcode">{{atmdetail.postCode}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
